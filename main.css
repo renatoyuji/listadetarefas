@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkslategray;
+}
+
+header{
+    color:white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+form{
+    text-align: center;
+    padding-top: 8px;
+}
+
+form button{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:rgb(0, 167, 0);
+}
+
+form input{
+    background-color: white;
+}
+
+form button, input{
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    font-size: medium;
+}
