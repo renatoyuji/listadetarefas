@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -16,7 +17,7 @@ header{
 
 form{
     text-align: center;
-    padding-top: 8px;
+    padding: 8px 0px 25px;
 }
 
 form button{
@@ -38,4 +39,15 @@ form button, input{
     padding: 8px;
     font-weight: bold;
     font-size: medium;
+}
+
+li{
+    color: white;
+    font-size: 25px;
+    margin-left: 42%;
+    cursor: pointer;
+}
+
+.riscado{
+    text-decoration: line-through;
 }
